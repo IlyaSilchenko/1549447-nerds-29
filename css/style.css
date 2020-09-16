@@ -203,3 +203,63 @@ img {
   line-height: 22px;
   font-weight: 400;
 }
+/*оформление внутренней страницы*/
+.page-title {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+  background:var(--grey-light);
+}
+main {
+  background: var(--background-main);
+}
+.aside-title .sort-title .sedona-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+}
+.aside-label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--regular-text-color);
+}
+.aside-label:disabled {
+  color: rgba(40, 49, 54, 0,3);
+}
+.any-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--black);
+  background: var(--grey-light);
+  border-radius: 3px;
+}
+.any-button:hover {
+  background:var(--grey);
+  border-radius: 3px;
+}
+.any-button:focus {
+  background:var(--grey-dark);
+  box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+  border-radius: 3px;
+  color: rgba(0, 0, 0, 0,3);
+}
+.sedona-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: var(--contacts-field-color);
+}
+.sort-criterion {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color:rgba(0, 0, 0, 0,3);
+}
+.sort-criterion:hover{
+  color:rgba(0, 0, 0, 0,6);
+}
+.sort-criterion:focus .sort-criterion:active {
+  color: var(--black);
+}
