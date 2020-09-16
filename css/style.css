@@ -1,0 +1,79 @@
+:root {
+  --grey-light: #EEEEEE;
+  --grey: #DFDFDF;
+  --grey-dark: #D5D5D5;
+  --background-main: #888888;
+  --red-light: #FB565A;
+  --red: #E74246;
+  --red-dark: #D7373B;
+  --green-light: #00CA74;
+  --green: #00BC6C;
+  --green-dark: #00AA62;
+  --yellow-light: #EFC849;
+  --yellow: #EAB534;
+  --yellow-dark: #E5A722;
+  --black: #000000;
+  --white: #FFFFFF;
+}
+body {
+
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*оформление навигации*/
+.site-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--black);
+  list-style: none;
+}
+.site-navigation a {
+  color: var(--black);
+}
+.site-navigation a:hover {
+  color: var(--red-light);
+}
+.site-navigation a:focus {
+  color: var(--black);
+  opacity: 0.3;
+}
+/*оформление всех кнопок*/
+.button-red {
+  color: var(--red-light);
+}
+.button-red:hover {
+color: var(--red)
+}
+.button-red:focus{
+  color: var(--red-dark)
+}
+.button-green {
+  color: var(--green-light);
+}
+.button-green:hover {
+color: var(--green)
+}
+.button-green:focus{
+  color: var(--green-dark)
+}
+.button-yellow {
+  color: var(--yellow-light);
+}
+.button-yellow:hover {
+color: var(--yellow)
+}
+.button-yellow:focus{
+  color: var(--yellow-dark)
+}
+/*оформление лого партнеров*/
+.partners {
+  opacity: 0.2;
+}
+.partners:focus {
+  opacity: 0.1;
+}
