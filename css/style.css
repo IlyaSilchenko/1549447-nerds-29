@@ -60,8 +60,7 @@ img {
   color: var(--red-light);
 }
 .site-navigation a:focus {
-  color: var(--black);
-  opacity: 0.3;
+  color:rgba (0,0,0 , 0,3);
 }
 /*оформление секции advert */
 .advert {
@@ -145,8 +144,7 @@ img {
 .button-red:focus{
   background: var(--red-dark);
   border-radius: 3px;
-  color: var (--white);
-  opacity: 0.3;
+  color:rgba (255,255,255 , 0,3);
 }
 .button-green {
   background: var(--green-light);
@@ -163,8 +161,7 @@ img {
 .button-green:focus{
   background: var(--green-dark);
   border-radius: 3px;
-  color: var (--white);
-  opacity: 0.3;
+  color:rgba (255,255,255 , 0,3);
 }
 .button-yellow {
   background: var(--yellow-light);
@@ -181,8 +178,7 @@ img {
 .button-yellow:focus{
   background: var(--yellow-dark);
   border-radius: 3px;
-  color: var (--white);
-  opacity: 0.3;
+  color:rgba (255,255,255 , 0,3);
 }
 /*оформление лого партнеров*/
 .partners {
