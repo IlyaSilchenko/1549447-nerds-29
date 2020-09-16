@@ -1,265 +1,402 @@
 :root {
-  --grey-light: #EEEEEE;
-  --grey: #DFDFDF;
-  --grey-dark: #D5D5D5;
+  --grey-light: #eeeeee;
+
+  --grey: #dfdfdf;
+
+  --grey-dark: #d5d5d5;
+
   --background-main: #888888;
-  --red-light: #FB565A;
-  --red: #E74246;
-  --red-dark: #D7373B;
-  --green-light: #00CA74;
-  --green: #00BC6C;
-  --green-dark: #00AA62;
-  --yellow-light: #EFC849;
-  --yellow: #EAB534;
-  --yellow-dark: #E5A722;
+
+  --red-light: #fb565a;
+
+  --red: #e74246;
+
+  --red-dark: #d7373b;
+
+  --green-light: #00ca74;
+
+  --green: #00bc6c;
+
+  --green-dark: #00aa62;
+
+  --yellow-light: #efc849;
+
+  --yellow: #eab534;
+
+  --yellow-dark: #e5a722;
+
   --black: #000000;
-  --white: #FFFFFF;
+
+  --white: #ffffff;
+
   --regular-text-color: #283136;
+
   --contacts-field-color: #666666;
+
   --friendship-bonus-color: #444444;
 }
+
 body {
   font-size: 16px;
+
   line-height: 24px;
+
   font-weight: 500;
+
   font-family: "Roboto", sans-serif;
+
   color: var(--black);
 }
+
 a {
   text-decoration: none;
+
   color: var(--white);
 }
+
 img {
   max-width: 100%;
+
   height: auto;
 }
-.hidden-title {
 
-}
 /*оформление мелкого текста*/
+
 .regular-text {
   color: var(--regular-text-color);
+
   font-weight: 400;
 }
-/*оформление main-header */
+
 .main-header {
   background: var(--grey-light);
 }
+
 /*оформление навигации*/
+
 .site-navigation {
   font-size: 16px;
+
   line-height: 30px;
+
   color: var(--black);
+
   list-style: none;
 }
+
 .site-navigation a {
   text-decoration: none;
+
   color: var(--black);
 }
+
 .site-navigation a:hover {
   color: var(--red-light);
 }
-.site-navigation a:focus {
-  color:rgba (0,0,0 , 0,3);
+
+.site-navigation a:active {
+  color: rgba (0, 0, 0, 0, 3);
 }
-/*оформление секции advert */
+
 .advert {
-  background: var(--grey-light)
+  background: var(--grey-light);
 }
+
 .advert-list {
   list-style: none;
 }
+
 .advert-title {
   font-size: 55px;
+
   line-height: 55px;
 }
 
-/* оформление секции products*/
 .products {
   list-style: none;
-  background: var (--backpround-main);
 }
+
 .products-list {
   text-decoration: none;
+
   list-style: none;
 }
+
 .products-name {
   font-size: 24px;
+
   line-height: 30px;
+
   font-weight: 700;
+
   color: var(--black);
 }
+
 /*оформление секции about */
-.about {
-  background: var(--background-main);
-}
+
 .about-title {
   font-size: 45px;
+
   line-height: 45px;
 }
+
 .bold-text {
   font-weight: 700;
 }
-.about-products {
 
-}
 .percent {
   font-size: 45px;
+
   line-height: 64px;
+
   font-weight: 700;
 }
+
 .advantages {
   color: var(--regular-text-color);
+
   font-size: 16px;
+
   line-height: 18px;
 }
-/*оформление секции contacts*/
+
 .contacts {
   background: var(--white);
 }
+
 .contacts-title {
   font-size: 18px;
+
   line-height: 30px;
+
   font-weight: 700;
 }
+
 .contacts-field {
   color: var(--contacts-field-color);
+
   font-size: 16px;
+
   line-height: 18px;
 }
+
 /*оформление всех кнопок*/
 
 .button-red {
   background: var(--red-light);
+
   border-radius: 3px;
+
   color: var (--white);
+
   font-size: 16px;
+
   line-height: 18px;
 }
+
 .button-red:hover {
   background: var(--red);
+
   border-radius: 3px;
+
   color: var (--white);
 }
-.button-red:focus{
+
+.button-red:active {
   background: var(--red-dark);
+
   border-radius: 3px;
-  color:rgba (255,255,255 , 0,3);
+
+  color: rgba (255, 255, 255, 0, 3);
 }
+
 .button-green {
   background: var(--green-light);
+
   border-radius: 3px;
+
   color: var (--white);
+
   font-size: 16px;
+
   line-height: 18px;
 }
+
 .button-green:hover {
   background: var(--green);
+
   border-radius: 3px;
+
   color: var (--white);
 }
-.button-green:focus{
+
+.button-green:active {
   background: var(--green-dark);
+
   border-radius: 3px;
-  color:rgba (255,255,255 , 0,3);
+
+  color: rgba (255, 255, 255, 0, 3);
 }
+
 .button-yellow {
   background: var(--yellow-light);
+
   border-radius: 3px;
+
   color: var (--white);
+
   font-size: 16px;
+
   line-height: 18px;
 }
+
 .button-yellow:hover {
   background: var(--yellow);
+
   border-radius: 3px;
+
   color: var (--white);
 }
-.button-yellow:focus{
+
+.button-yellow:active {
   background: var(--yellow-dark);
+
   border-radius: 3px;
-  color:rgba (255,255,255 , 0,3);
+
+  color: rgba (255, 255, 255, 0, 3);
 }
-/*оформление лого партнеров*/
+
 .partners {
-  background: var(--background-main);
   opacity: 0.2;
 }
-.partners:focus {
+
+.partners:active {
   opacity: 0.1;
 }
+
 /* оформление footer*/
-.footer {
-  background: var(--background-main);
-}
+
 .friendship {
   font-size: 36px;
+
   line-height: 36px;
+
   font-weight: 700;
 }
+
 .friendship-bonus {
   color: var(--friendship-bonus-color);
+
   font-size: 16px;
+
   line-height: 22px;
+
   font-weight: 400;
 }
+
 /*оформление внутренней страницы*/
+
 .page-title {
   font-weight: 500;
+
   font-size: 55px;
+
   line-height: 55px;
-  background:var(--grey-light);
+
+  background: var(--grey-light);
 }
-main {
-  background: var(--background-main);
-}
-.aside-title .sort-title .sedona-title {
+
+.sedona-title {
   font-weight: 700;
+
   font-size: 18px;
+
   line-height: 30px;
 }
+.aside-title {
+  font-weight: 700;
+
+  font-size: 18px;
+
+  line-height: 30px;
+}
+
+.sort-title {
+  font-weight: 700;
+
+  font-size: 18px;
+
+  line-height: 30px;
+}
+
 .aside-label {
   font-weight: 400;
+
   font-size: 16px;
+
   line-height: 19px;
+
   color: var(--regular-text-color);
 }
+
 .aside-label:disabled {
-  color: rgba(40, 49, 54, 0,3);
+  color: rgba(40, 49, 54, 0, 3);
 }
+
 .any-button {
   font-weight: 500;
+
   font-size: 16px;
+
   line-height: 18px;
+
   color: var(--black);
+
   background: var(--grey-light);
+
   border-radius: 3px;
 }
+
 .any-button:hover {
-  background:var(--grey);
+  background: var(--grey);
+
   border-radius: 3px;
 }
-.any-button:focus {
-  background:var(--grey-dark);
+
+.any-button:active {
+  background: var(--grey-dark);
+
   box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+
   border-radius: 3px;
-  color: rgba(0, 0, 0, 0,3);
+
+  color: rgba(0, 0, 0, 0, 3);
 }
+
 .sedona-text {
   font-weight: 400;
+
   font-size: 16px;
+
   line-height: 18px;
+
   color: var(--contacts-field-color);
 }
+
 .sort-criterion {
   font-weight: 400;
+
   font-size: 14px;
+
   line-height: 18px;
-  color:rgba(0, 0, 0, 0,3);
+
+  color: rgba(0, 0, 0, 0, 3);
 }
-.sort-criterion:hover{
-  color:rgba(0, 0, 0, 0,6);
+
+.sort-criterion:hover {
+  color: rgba(0, 0, 0, 0, 6);
 }
+
 .sort-criterion:focus .sort-criterion:active {
   color: var(--black);
 }
