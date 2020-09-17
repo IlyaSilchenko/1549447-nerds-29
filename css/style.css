@@ -1,402 +1,328 @@
 :root {
-  --grey-light: #eeeeee;
-
-  --grey: #dfdfdf;
-
-  --grey-dark: #d5d5d5;
-
-  --background-main: #888888;
-
-  --red-light: #fb565a;
-
-  --red: #e74246;
-
-  --red-dark: #d7373b;
-
-  --green-light: #00ca74;
-
-  --green: #00bc6c;
-
-  --green-dark: #00aa62;
-
-  --yellow-light: #efc849;
-
-  --yellow: #eab534;
-
-  --yellow-dark: #e5a722;
-
-  --black: #000000;
-
-  --white: #ffffff;
-
-  --regular-text-color: #283136;
-
-  --contacts-field-color: #666666;
-
-  --friendship-bonus-color: #444444;
+	--grey-light: #eeeeee;
+	--grey: #dfdfdf;
+	--grey-dark: #d5d5d5;
+	--background-main: #888888;
+	--red-light: #fb565a;
+	--red: #e74246;
+	--red-dark: #d7373b;
+	--green-light: #00ca74;
+	--green: #00bc6c;
+	--green-dark: #00aa62;
+	--yellow-light: #efc849;
+	--yellow: #eab534;
+	--yellow-dark: #e5a722;
+	--black: #000000;
+	--white: #ffffff;
+	--regular-text-color: #283136;
+	--contacts-field-color: #666666;
+	--friendship-bonus-color: #444444;
 }
 
 body {
-  font-size: 16px;
-
-  line-height: 24px;
-
-  font-weight: 500;
-
-  font-family: "Roboto", sans-serif;
-
-  color: var(--black);
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+	font-family: "Roboto", sans-serif;
+	color: var(--black);
 }
 
 a {
-  text-decoration: none;
-
-  color: var(--white);
+	text-decoration: none;
+	color: var(--white);
 }
 
 img {
-  max-width: 100%;
-
-  height: auto;
+	max-width: 100%;
+	height: auto;
 }
+
 
 /*оформление мелкого текста*/
 
 .regular-text {
-  color: var(--regular-text-color);
-
-  font-weight: 400;
+	color: var(--regular-text-color);
+	font-weight: 400;
 }
 
 .main-header {
-  background: var(--grey-light);
+	background: var(--grey-light);
 }
+
 
 /*оформление навигации*/
 
 .site-navigation {
-  font-size: 16px;
-
-  line-height: 30px;
-
-  color: var(--black);
-
-  list-style: none;
+	font-size: 16px;
+	line-height: 30px;
+	color: var(--black);
+	list-style: none;
 }
 
 .site-navigation a {
-  text-decoration: none;
-
-  color: var(--black);
+	text-decoration: none;
+	color: var(--black);
 }
 
 .site-navigation a:hover {
-  color: var(--red-light);
+	color: var(--red-light);
 }
 
 .site-navigation a:active {
-  color: rgba (0, 0, 0, 0, 3);
+	color: rgba(0, 0, 0, 0.3);
 }
 
 .advert {
-  background: var(--grey-light);
+	background: var(--grey-light);
 }
 
 .advert-list {
-  list-style: none;
+	list-style: none;
 }
 
 .advert-title {
-  font-size: 55px;
-
-  line-height: 55px;
+	font-size: 55px;
+	line-height: 55px;
 }
 
 .products {
-  list-style: none;
+	list-style: none;
 }
 
 .products-list {
-  text-decoration: none;
-
-  list-style: none;
+	text-decoration: none;
+	list-style: none;
 }
 
 .products-name {
-  font-size: 24px;
-
-  line-height: 30px;
-
-  font-weight: 700;
-
-  color: var(--black);
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: 700;
+	color: var(--black);
 }
+
 
 /*оформление секции about */
 
 .about-title {
-  font-size: 45px;
-
-  line-height: 45px;
+	font-size: 45px;
+	line-height: 45px;
 }
 
 .bold-text {
-  font-weight: 700;
+	font-weight: 700;
 }
 
 .percent {
-  font-size: 45px;
-
-  line-height: 64px;
-
-  font-weight: 700;
+	font-size: 45px;
+	line-height: 64px;
+	font-weight: 700;
 }
 
 .advantages {
-  color: var(--regular-text-color);
-
-  font-size: 16px;
-
-  line-height: 18px;
+	color: var(--regular-text-color);
+	font-size: 16px;
+	line-height: 18px;
 }
 
 .contacts {
-  background: var(--white);
+	background: var(--white);
 }
 
 .contacts-title {
-  font-size: 18px;
-
-  line-height: 30px;
-
-  font-weight: 700;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: 700;
 }
 
 .contacts-field {
-  color: var(--contacts-field-color);
-
-  font-size: 16px;
-
-  line-height: 18px;
+	color: var(--contacts-field-color);
+	font-size: 16px;
+	line-height: 18px;
 }
+
 
 /*оформление всех кнопок*/
 
 .button-red {
-  background: var(--red-light);
-
-  border-radius: 3px;
-
-  color: var (--white);
-
-  font-size: 16px;
-
-  line-height: 18px;
+	background: var(--red-light);
+	border-radius: 3px;
+	color: var (--white);
+	font-size: 16px;
+	line-height: 18px;
 }
 
 .button-red:hover {
-  background: var(--red);
-
-  border-radius: 3px;
-
-  color: var (--white);
+	background: var(--red);
+	border-radius: 3px;
+	color: var (--white);
 }
 
 .button-red:active {
-  background: var(--red-dark);
-
-  border-radius: 3px;
-
-  color: rgba (255, 255, 255, 0, 3);
+	background: var(--red-dark);
+	border-radius: 3px;
+	color: rgba(255, 255, 255, 0.3);
 }
 
 .button-green {
-  background: var(--green-light);
-
-  border-radius: 3px;
-
-  color: var (--white);
-
-  font-size: 16px;
-
-  line-height: 18px;
+	background: var(--green-light);
+	border-radius: 3px;
+	color: var (--white);
+	font-size: 16px;
+	line-height: 18px;
 }
 
 .button-green:hover {
-  background: var(--green);
-
-  border-radius: 3px;
-
-  color: var (--white);
+	background: var(--green);
+	border-radius: 3px;
+	color: var (--white);
 }
 
 .button-green:active {
-  background: var(--green-dark);
-
-  border-radius: 3px;
-
-  color: rgba (255, 255, 255, 0, 3);
+	background: var(--green-dark);
+	border-radius: 3px;
+	color: rgba(255, 255, 255, 0.3);
 }
 
 .button-yellow {
-  background: var(--yellow-light);
-
-  border-radius: 3px;
-
-  color: var (--white);
-
-  font-size: 16px;
-
-  line-height: 18px;
+	background: var(--yellow-light);
+	border-radius: 3px;
+	color: var (--white);
+	font-size: 16px;
+	line-height: 18px;
 }
 
 .button-yellow:hover {
-  background: var(--yellow);
-
-  border-radius: 3px;
-
-  color: var (--white);
+	background: var(--yellow);
+	border-radius: 3px;
+	color: var (--white);
 }
 
 .button-yellow:active {
-  background: var(--yellow-dark);
-
-  border-radius: 3px;
-
-  color: rgba (255, 255, 255, 0, 3);
+	background: var(--yellow-dark);
+	border-radius: 3px;
+	color: rgba(255, 255, 255, 0.3);
 }
 
 .partners {
-  opacity: 0.2;
+	opacity: 0.2;
 }
 
 .partners:active {
-  opacity: 0.1;
+	opacity: 0.1;
 }
+
 
 /* оформление footer*/
 
 .friendship {
-  font-size: 36px;
-
-  line-height: 36px;
-
-  font-weight: 700;
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: 700;
 }
 
 .friendship-bonus {
-  color: var(--friendship-bonus-color);
-
-  font-size: 16px;
-
-  line-height: 22px;
-
-  font-weight: 400;
+	color: var(--friendship-bonus-color);
+	font-size: 16px;
+	line-height: 22px;
+	font-weight: 400;
 }
+
 
 /*оформление внутренней страницы*/
 
 .page-title {
-  font-weight: 500;
-
-  font-size: 55px;
-
-  line-height: 55px;
-
-  background: var(--grey-light);
+	font-weight: 500;
+	font-size: 55px;
+	line-height: 55px;
+	background: var(--grey-light);
 }
 
-.sedona-title {
-  font-weight: 700;
-
-  font-size: 18px;
-
-  line-height: 30px;
+.gallery-item-title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 30px;
+	color: var(--black);
 }
+
+.gallery-item-title:hover {
+	color: var(--red-light);
+}
+
+.gallery-item-title:active {
+	color: rgba(0, 0, 0, 0.3);
+}
+
 .aside-title {
-  font-weight: 700;
-
-  font-size: 18px;
-
-  line-height: 30px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 30px;
 }
 
 .sort-title {
-  font-weight: 700;
-
-  font-size: 18px;
-
-  line-height: 30px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 30px;
 }
 
 .aside-label {
-  font-weight: 400;
-
-  font-size: 16px;
-
-  line-height: 19px;
-
-  color: var(--regular-text-color);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: var(--regular-text-color);
 }
 
 .aside-label:disabled {
-  color: rgba(40, 49, 54, 0, 3);
+	color: rgba(40, 49, 54, 0.3);
 }
 
 .any-button {
-  font-weight: 500;
-
-  font-size: 16px;
-
-  line-height: 18px;
-
-  color: var(--black);
-
-  background: var(--grey-light);
-
-  border-radius: 3px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 18px;
+	color: var(--black);
+	background: var(--grey-light);
+	border-radius: 3px;
 }
 
 .any-button:hover {
-  background: var(--grey);
-
-  border-radius: 3px;
+	background: var(--grey);
+	border-radius: 3px;
 }
 
 .any-button:active {
-  background: var(--grey-dark);
-
-  box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
-
-  border-radius: 3px;
-
-  color: rgba(0, 0, 0, 0, 3);
+	background: var(--grey-dark);
+	box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+	border-radius: 3px;
+	color: rgba(0, 0, 0, 0 3);
 }
 
-.sedona-text {
-  font-weight: 400;
-
-  font-size: 16px;
-
-  line-height: 18px;
-
-  color: var(--contacts-field-color);
+.gallery-item-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 18px;
+	color: var(--contacts-field-color);
 }
 
-.sort-criterion {
-  font-weight: 400;
-
-  font-size: 14px;
-
-  line-height: 18px;
-
-  color: rgba(0, 0, 0, 0, 3);
+.sort-criterion,
+.sort-position {
+	color: rgba(0, 0, 0, 0.3);
 }
 
-.sort-criterion:hover {
-  color: rgba(0, 0, 0, 0, 6);
+.sort-criterion a,
+.sort-position a {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: rgba(0, 0, 0, 0.3);
 }
 
-.sort-criterion:focus .sort-criterion:active {
-  color: var(--black);
+.sort-criterion a:hover,
+.sort-position a:hover {
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.sort-criterion:active,
+.sort-position:active {
+	color: var(--black);
 }
