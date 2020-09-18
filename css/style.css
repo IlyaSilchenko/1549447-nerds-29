@@ -296,6 +296,13 @@ img {
 	border-radius: 3px;
 	color: rgba(0, 0, 0, 0 3);
 }
+.gallery-item-shape {
+  background: rgba(77,77,77,0.12);
+}
+
+.gallery-item-shape:active {
+  background: rgba(77,77,77,1);
+}
 
 .gallery-item-text {
 	font-weight: 400;
