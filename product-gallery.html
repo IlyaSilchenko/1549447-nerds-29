@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <title>HTML Academy: Нёрдс</title>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/normalise.css">
+        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body class="page-body">
@@ -13,10 +13,11 @@
             <li><a href="https://htmlacademy.ru/"><img src="img/nerds-logo.svg" alt=""></a></li>
             <li><a href="index.html">СТУДИЯ</a></li>
             <li><a href="">КЛИЕНТЫ</a></li>
-            <li><a href="product-gallery.html">МАГАЗИН</a></li>
+            <li class="active-page"><a href="product-gallery.html">МАГАЗИН</a></li>
             <li><a href="">КОНТАКТЫ</a></li>
         </ul>
         <ul class="site-navigation">
+            <li><img src="img/recicle.svg" alt=""></li>
             <li><a href="">КОРЗИНА</a></li>
         </ul>
     </header>
@@ -27,37 +28,37 @@
       <p class="aside-title">Стоимость:</p><br>
       <p class="aside-title">Сетка:</p>,<br>
       <label class="aside-label">
-        <input type="radio" name="grid" value="adaptive" checked>
+        <input  class="product-choose" type="radio" name="grid" value="adaptive" checked>
         Адаптивная
       </label><br>
       <label class="aside-label">
-        <input type="radio" name="grid" value="fixed">
+        <input  class="product-choose" type="radio" name="grid" value="fixed">
         Фиксированная
       </label><br>
       <label class="aside-label">
-        <input type="radio" name="grid" value="rubber">
+        <input  class="product-choose" type="radio" name="grid" value="rubber">
         Резиновая
       </label><br>
       <p class="aside-title">Особенности:</p><br>
-      <input type="checkbox" name="slider" id="slider-chekbox" checked>
+      <input class="product-choose" type="checkbox" name="slider" id="slider-chekbox" checked>
       <label class="aside-label" for="slider-chekbox">Слайдер</label><br>
-      <input type="checkbox" name="advantages" id="advantages-chekbox">
+      <input class="product-choose" type="checkbox" name="advantages" id="advantages-chekbox">
       <label class="aside-label" for="advantages-chekbox">Блок преимуществ</label><br>
-      <input type="checkbox" name="news" id="news-chekbox" checked>
+      <input class="product-choose" type="checkbox" name="news" id="news-chekbox" checked>
       <label class="aside-label" for="news-chekbox">Новости</label><br>
-      <input type="checkbox" name="gallery" id="gallery-chekbox">
+      <input class="product-choose" type="checkbox" name="gallery" id="gallery-chekbox">
       <label class="aside-label" for="gallery-chekbox">Галлерея</label><br>
-      <input type="checkbox" name="recicle" id="recicle-chekbox">
+      <input class="product-choose" type="checkbox" name="recicle" id="recicle-chekbox">
       <label class="aside-label" for="recicle-chekbox">Корзина</label><br>
       <input class="any-button" type="submit" value="ПОКАЗАТЬ">
     </form>
   </aside>
 <section class="catalog">
   <p class="sort-title">Сортировать:</p>
-  <a class="sort-criterion" href="">по цене</a>
+  <a class="sort-criterion active-criterion" href="">по цене</a>
   <a class="sort-criterion" href="">по типу</a>
   <a class="sort-criterion" href="">по названию</a>
-  <a class="sort-position-img" href=""><img src="img/down.png" width="11"  height="10" alt=""></a>
+  <a class="sort-position-img active-criterion" href=""><img src="img/down.png" width="11"  height="10" alt=""></a>
   <a class="sort-position-img" href=""><img src="img/up.png" width="11"  height="10" alt=""></a>
   <ul class="gallery-item-list">
     <li class="gallery-item">
