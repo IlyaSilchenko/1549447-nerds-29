@@ -1,7 +1,8 @@
 :root {
 	--grey-light: #eeeeee;
 	--grey: #dfdfdf;
-	--grey-dark: #d5d5d5;
+  --grey-dark: #d5d5d5;
+  --grey-gradient: #e1e1e1;
 	--background-main: #888888;
 	--red-light: #fb565a;
 	--red: #e74246;
@@ -53,7 +54,7 @@ img {
 /*оформление навигации*/
 
 .header-logo:active {
-opacity: 0.3;
+  opacity: 0.3;
 }
 
 .site-navigation {
@@ -61,6 +62,11 @@ opacity: 0.3;
 	line-height: 30px;
 	color: var(--black);
 	list-style: none;
+}
+
+.active-page {
+  text-decoration: underline;
+  text-decoration-color: var(--red-light);
 }
 
 .site-navigation a {
@@ -109,16 +115,15 @@ opacity: 0.3;
   list-style: none;
 }
 
-
 /*оформление секции about */
 
 .first-line {
-position: absolute;
-width: 1158px;
-height: 2px;
-left: 140px;
-top: 1052px;
-background: #EEEEEE;
+  position: absolute;
+  width: 1158px;
+  height: 2px;
+  left: 140px;
+  top: 1052px;
+  background: var(--grey-light);
 }
 
 .about-title {
@@ -155,16 +160,17 @@ background: #EEEEEE;
 .contacts-field {
 	color: var(--contacts-field-color);
 	font-size: 16px;
-	line-height: 18px;
+  line-height: 18px;
+  font-weight: 400;
 }
 
 .second-line {
-position: absolute;
-width: 1158px;
-height: 2px;
-left: 140px;
-top: 1579px;
-background: #EEEEEE;
+  position: absolute;
+  width: 1158px;
+  height: 2px;
+  left: 140px;
+  top: 1579px;
+  background: var(--grey-light);
 }
 
 .partners {
@@ -180,13 +186,14 @@ background: #EEEEEE;
 }
 
 .third-line {
-position: absolute;
-width: 1158px;
-height: 2px;
-left: 140px;
-top: 1761px;
-background: #EEEEEE;
+  position: absolute;
+  width: 1158px;
+  height: 2px;
+  left: 140px;
+  top: 1761px;
+  background: var(--grey-light);
 }
+
 /*оформление всех кнопок*/
 
 .button-red {
@@ -257,7 +264,6 @@ background: #EEEEEE;
 	opacity: 0.1;
 }
 
-
 /* оформление footer*/
 .logo-sw {
   list-style: none;
@@ -277,15 +283,15 @@ background: #EEEEEE;
 }
 
 .logo-circle {
-  background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
+  background: linear-gradient(0deg, var(--grey-gradient), var(--grey-gradient)), var(--white);
 }
 
 .logo-circle:hover {
-  background: linear-gradient(0deg, #E74246, #E74246), #FFFFFF;
+  background: linear-gradient(0deg, var(--red),  var(--red)), var(--white);
 }
 
 .logo-circle:active {
-  background: linear-gradient(0deg, #D7373B, #D7373B), #FFFFFF;
+  background: linear-gradient(0deg, var(--red-dark), var(--red-dark)), var(--white);
   box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
 }
 
@@ -326,6 +332,11 @@ background: #EEEEEE;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 30px;
+}
+
+.product-choose:checked {
+  background: rgba(77, 77, 77, 0.4);
+  color: rgba(77, 77, 77, 0.4);
 }
 
 .aside-label {
@@ -386,6 +397,21 @@ background: #EEEEEE;
 
 .sort-position-img {
   opacity: 0.3;
+}
+
+.sort-criterion {
+  text-transform: uppercase;
+  font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.sort-criterion.active-criterion {
+  color: var(--black);
+}
+
+.sort-position-img.active-criterion {
+  opacity: 1;
 }
 
 .sort-criterion a,
