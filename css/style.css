@@ -276,120 +276,17 @@ background: #EEEEEE;
 	font-weight: 400;
 }
 
-.logo-circle-vk {
-  position: absolute;
-  width: 81px;
-  height: 81px;
-  left: 246px;
-  top: 1393px;
+.logo-circle {
   background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
 }
 
-.logo-circle-vk:hover {
+.logo-circle:hover {
   background: linear-gradient(0deg, #E74246, #E74246), #FFFFFF;
 }
 
-.logo-circle-vk:active {
+.logo-circle:active {
   background: linear-gradient(0deg, #D7373B, #D7373B), #FFFFFF;
   box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
-}
-
-.vk-logo {
-  position: absolute;
-  left: 18.96%;
-  right: 79.24%;
-  top: 41.27%;
-  bottom: 58.29%;
-  background: #FFFFFF;
-}
-
-.logo-circle-fb {
-  position: absolute;
-  width: 81px;
-  height: 81px;
-  left: 337px;
-  top: 1393px;
-  background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
-}
-
-.logo-circle-fb:hover {
-  background: linear-gradient(0deg, #E74246, #E74246), #FFFFFF;
-}
-
-.logo-circle-fb:active {
-  background: linear-gradient(0deg, #D7373B, #D7373B), #FFFFFF;
-  box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
-}
-
-.fb-logo {
-  position: absolute;
-  left: 25.83%;
-  right: 73.33%;
-  top: 41.22%;
-  bottom: 58.15%;
-  background: #FFFFFF;
-}
-
-.logo-circle-insta {
-  position: absolute;
-  width: 81px;
-  height: 81px;
-  left: 427px;
-  top: 1393px;
-  background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
-}
-
-.logo-circle-insta:hover {
-  background: linear-gradient(0deg, #E74246, #E74246), #FFFFFF;
-}
-
-.logo-circle-insta:active {
-  background: linear-gradient(0deg, #D7373B, #D7373B), #FFFFFF;
-  box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
-}
-
-.insta-logo {
-  /* insta-icon */
-  position: absolute;
-  width: 21px;
-  height: 21px;
-  left: 457px;
-  top: 1423px;
-/* Shape */
-  position: absolute;
-  left: 31.74%;
-  right: 66.81%;
-  top: 41.19%;
-  bottom: 58.21%;
-  background: #FFFFFF;
-/* Path */
-  position: absolute;
-  left: 31.74%;
-  right: 66.81%;
-  top: 41.19%;
-  bottom: 58.21%;
-  background: #FFFFFF;
-/* Path */
-  position: absolute;
-  left: 32.22%;
-  right: 67.29%;
-  top: 41.39%;
-  bottom: 58.41%;
-  background: #FFFFFF;
-/* Path */
-  position: absolute;
-  left: 31.94%;
-  right: 67.01%;
-  top: 41.45%;
-  bottom: 58.29%;
-  background: #FFFFFF;
-/* Path */
-  position: absolute;
-  left: 32.71%;
-  right: 67.01%;
-  top: 41.27%;
-  bottom: 58.61%;
-  background: #FFFFFF;
 }
 
 /*оформление внутренней страницы*/
