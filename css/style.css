@@ -38,6 +38,17 @@ img {
   height: auto;
 }
 
+.page {
+  height: 100%;
+}
+
+.page-body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+}
+
 /*оформление мелкого текста*/
 
 .regular-text {
@@ -47,12 +58,23 @@ img {
 
 .main-header {
   background: var(--grey-light);
+  margin-bottom: 70px;
 }
 
 /*оформление навигации*/
 
 .header-logo:active {
   opacity: 0.3;
+  justify-self: start;
+}
+
+.site-navigation {
+  display: grid;
+}
+
+.site-navigation-box {
+  display: grid;
+  grid-template-columns: 1fr min-content;
 }
 
 .site-navigation,
@@ -99,11 +121,17 @@ img {
 
 .products {
   list-style: none;
+  margin-bottom: 80px;
 }
 
 .products-list {
   text-decoration: none;
   list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0;
+  padding: 0;
+  column-gap: 20px;
 }
 
 .products-name {
@@ -141,6 +169,30 @@ img {
   font-size: 45px;
   line-height: 64px;
   font-weight: 700;
+}
+
+.advert {
+ margin-bottom: 80px;
+}
+
+.advert-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0;
+  padding: 0;
+  column-gap: 20px;
+}
+
+.advert-item {
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  margin: 0;
+  padding: 0;
+  column-gap: 20px;
+}
+
+.advert-item-text {
+  margin-bottom: 80px;
 }
 
 .advantages {
@@ -196,6 +248,29 @@ img {
   background: var(--grey-light);
 }
 
+.about {
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  margin: 0;
+  padding: 0;
+  column-gap: 20px;
+}
+
+.about-column-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0;
+  padding: 0;
+  column-gap: 20px;
+}
+
+.advantages-list {
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  margin: 0;
+  padding: 0;
+  column-gap: 20px;
+}
 /*оформление всех кнопок*/
 
 .button-red {
