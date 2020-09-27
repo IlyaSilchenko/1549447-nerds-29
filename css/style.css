@@ -67,7 +67,6 @@ img {
 
 .header-logo:active {
   opacity: 0.3;
-  justify-self: start;
 }
 
 .site-navigation {
@@ -75,6 +74,10 @@ img {
   grid-template-columns:1fr 1fr 1fr 1fr;
   margin: 0;
   padding: 0;
+}
+
+.site-navigation-box {
+  margin: 0 auto;
 }
 
 .user-navigation-item  {
@@ -136,9 +139,13 @@ img {
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   column-gap: 20px;
+}
+
+.product-item {
+
 }
 
 .products-name {
@@ -184,7 +191,7 @@ img {
 .advert-item {
   display: grid;
   grid-template-columns:1fr 1fr;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   column-gap: 20px;
 }
@@ -237,6 +244,9 @@ img {
   column-gap: 20px;
 }
 
+.about-column-1 {
+  margin: 0 auto;
+}
 
 .advantages-list {
   display: grid;
@@ -341,6 +351,18 @@ img {
   margin: 0;
   padding: 0;
   column-gap: 20px;
+}
+
+.contacts {
+  margin: 0 auto;
+}
+
+.friendship-container {
+  margin: 0 auto;
+}
+
+.social-contener {
+  margin: 0 auto;
 }
 
 .friendship {
