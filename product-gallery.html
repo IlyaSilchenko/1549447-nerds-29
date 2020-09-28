@@ -8,28 +8,30 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body class="page-body">
-      <header class="main-header">
-        <a class="header-logo site-navigation" href="index.html"><img src="img/nerds-logo.svg" alt=""></a>
-        <ul class="site-navigation">
-            <li><a href="index.html">СТУДИЯ</a></li>
-            <li><a href="">КЛИЕНТЫ</a></li>
-            <li><a href="product-gallery.html">МАГАЗИН</a></li>
-            <li><a href="">КОНТАКТЫ</a></li>
-        </ul>
-        <ul class="user-navigation">
-            <li class="user-navigation-item">
-              <img src="img/recycle.svg" alt="">
-              <a href="">КОРЗИНА</a>
-            </li>
-        </ul>
-    </header>
-  <main>
+      <header>
+        <div class="main-contaner main-header">
+            <a class="header-logo" href="index.html"><img src="img/nerds-logo.svg" width="159.87" height="65.02" alt=""></a>
+            <ul class="site-navigation  site-navigation-box">
+                <li><a href="index.html">СТУДИЯ</a></li>
+                <li><a href="">КЛИЕНТЫ</a></li>
+                <li><a href="product-gallery.html">МАГАЗИН</a></li>
+                <li><a href="">КОНТАКТЫ</a></li>
+            </ul>
+            <ul class="user-navigation">
+                <li class="user-navigation-item">
+                  <img src="img/recycle.svg" width="15" height="15" alt="">
+                  <a href="">КОРЗИНА</a>
+                </li>
+            </ul>
+        </div>
+      </header>
+  <main class="main-contaner">
   <h1 class="page-title">Магазин готовых шаблонов</h1>
   <div class="catalog-box">
   <aside>
     <form action="https://" method="post">
       <p class="aside-title">Стоимость:</p><br>
-      <p class="aside-title">Сетка:</p>,<br>
+      <p class="aside-title">Сетка:</p><br>
       <label class="aside-label">
         <input  class="product-choose" type="radio" name="grid" value="adaptive" checked>
         Адаптивная
@@ -56,7 +58,7 @@
       <input class="any-button" type="submit" value="ПОКАЗАТЬ">
     </form>
   </aside>
-<section class="catalog">
+<section class="catalog main-contaner">
   <h3 class="sort-title">Сортировать:</h3>
   <ul class="criterion-list">
     <li>
@@ -121,7 +123,6 @@
       <a class="button-red" href="">9900 Р</a>
     </li>
   </ul>
-</div>
   <ul class="pagination-list">
     <li>
        <a class="pagination-item" href="">1</a>
@@ -138,35 +139,37 @@
   </ul>
 </section>
   </main>
-  <footer class="footer">
-    <img src="img/map 1.jpg" width="1440" height="416" alt="" />
-    <img src="img/map-marker 1.png" width="230" height="190" alt="">
-    <section class="contacts">
-        <h2 class="contacts-title">NЁRDS DESIGN STUDIO</h2>
-        <p class="contacts-field">
-            191186, Санкт-Петербург,<br />
-            ул. Б. Коньшенная,д. 19/8
-        </p>
-        <a class="contacts-field" href="tel: +78122757575">тел. +7(812) 275-75-75</a><br>
-        <a class="button-red" href="">НАПИШИТЕ НАМ</a>
-    </section>
-    <div class="social-contener">
-    <ul class="social-list">
-      <li class="social-item">
-        <img src="img/logovk.svg" alt="">
-      </li>
-      <li class="social-item">
-        <img src="img/logofb.svg" alt="">
-      </li>
-      <li class="social-item">
-        <img src="img/logoinsta.svg" alt="">
-      </li>
-    </ul>
-      <div class="friendship-contener">
-    <p class="friendship">Давайте дружить, это выгодно!</p><br>
-    <p class="friendship-bonus">Скидка 10% для друзей из социальных сетей.</p>
-      </div>
-    </div>
-</footer>
+  <footer class="footer ">
+            <img src="img/map 1.jpg" width="1440" height="416" alt="" />
+            <img src="img/map-marker 1.png" width="230" height="190" alt="">
+           <div class="main-contaner">
+            <section class="contacts">
+                <h2 class="contacts-title">NЁRDS DESIGN STUDIO</h2>
+                <p class="contacts-field">
+                    191186, Санкт-Петербург,<br />
+                    ул. Б. Коньшенная,д. 19/8
+                </p>
+                <a class="contacts-field" href="tel: +78122757575">тел. +7(812) 275-75-75</a><br>
+                <a class="button-red" href="">НАПИШИТЕ НАМ</a>
+            </section>
+            <div class="social-contener">
+            <ul class="social-list">
+              <li class="social-item">
+                <img src="img/logovk.svg" alt="">
+              </li>
+              <li class="social-item">
+                <img src="img/logofb.svg" alt="">
+              </li>
+              <li class="social-item">
+                <img src="img/logoinsta.svg" alt="">
+              </li>
+            </ul>
+              <div class="friendship-contener">
+            <p class="friendship">Давайте дружить, это выгодно!</p><br>
+            <p class="friendship-bonus">Скидка 10% для друзей из социальных сетей.</p>
+              </div>
+            </div>
+            </div>
+        </footer>
 </body>
 </html>
