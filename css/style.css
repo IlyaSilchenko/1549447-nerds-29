@@ -45,6 +45,7 @@ img {
 
 .page-body {
   min-height: 100%;
+  width: 1200px;
 }
 
 /*оформление мелкого текста*/
@@ -58,8 +59,8 @@ img {
   background: var(--grey-light);
   margin-bottom: 70px;
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
-  margin: 0;
+  grid-template-columns: min-content 1fr min-content;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -82,7 +83,7 @@ img {
 
 .user-navigation-item  {
   display: grid;
-  grid-template-columns:1fr 1fr;
+  grid-template-columns:min-content 1fr;
   margin: 0;
   padding: 0;
 }
