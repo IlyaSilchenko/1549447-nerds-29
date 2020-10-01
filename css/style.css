@@ -399,11 +399,15 @@ header {
   background: var(--grey-light);
 }
 
+.page-title-center {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .page-title {
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
-  width: 1200;
   margin: 0 auto;
 }
 
