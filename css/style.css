@@ -404,7 +404,7 @@ header {
 
 .catalog-box {
   display: grid;
-  grid-template-columns: min-content 1fr;
+  grid-template-columns: 260px 1fr;
   column-gap: 20px;
   padding: 0;
 }
@@ -412,7 +412,7 @@ header {
 .gallery-item-list {
   list-style: none;
   display: grid;
-  grid-template-columns:auto auto;
+  grid-template-columns:360px 360px;
   column-gap: 20px;
   padding: 0;
 }
