@@ -395,11 +395,16 @@ header {
 
 /*оформление внутренней страницы*/
 
+.page-title-box {
+  background: var(--grey-light);
+}
+
 .page-title {
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
-  background: var(--grey-light);
+  width: 1200;
+  margin: 0 auto;
 }
 
 .catalog-box {
