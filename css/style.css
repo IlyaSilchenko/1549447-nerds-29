@@ -51,6 +51,21 @@ img {
 header {
   background: var(--grey-light);
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /*оформление мелкого текста*/
 
 .regular-text {
@@ -61,7 +76,7 @@ header {
 .main-header {
   margin-bottom: 70px;
   display: grid;
-  grid-template-columns: min-content 1fr min-content;
+  grid-template-columns: max-content 1fr min-content;
 }
 
 /*оформление навигации*/
@@ -76,10 +91,11 @@ header {
 }
 
 .site-navigation {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  justify-content: space-around;
   margin: 0;
   padding: 0;
+  column-gap: 45px;
 }
 
 .site-navigation-box {
@@ -88,7 +104,7 @@ header {
 
 .user-navigation-item {
   display: grid;
-  grid-template-columns: min-content 1fr;
+  grid-template-columns: max-content 1fr;
   margin: 0;
   padding: 0;
 }
