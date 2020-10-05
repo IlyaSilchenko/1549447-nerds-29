@@ -86,6 +86,10 @@ header {
   padding: 0;
 }
 
+.header-logo {
+  padding-top: 49px;
+}
+
 .header-logo:active {
   opacity: 0.3;
 }
@@ -100,13 +104,22 @@ header {
 
 .site-navigation-box {
   margin: 0 auto;
+  padding-top: 75px;
 }
 
-.user-navigation-item {
-  display: grid;
-  grid-template-columns: max-content 1fr;
-  margin: 0;
-  padding: 0;
+.user-navigation {
+  display: flex;
+  align-items: center;
+  column-gap: 26px;
+  justify-content: space-around;
+}
+
+.recycle {
+  padding-top: 55px;
+}
+
+.recycle-text {
+padding-top: 55px;
 }
 
 .site-navigation,
@@ -157,7 +170,8 @@ header {
 
 .products {
   list-style: none;
-  margin-bottom: 80px;
+  padding-top: 15px;
+  margin-bottom: 81px;
 }
 
 .products-list {
@@ -168,9 +182,6 @@ header {
   margin: 0 auto;
   padding: 0;
   column-gap: 20px;
-}
-
-.product-item {
 }
 
 .products-name {
@@ -189,10 +200,12 @@ header {
 .about-title {
   font-size: 45px;
   line-height: 45px;
+  font-weight: 400;
 }
 
 .bold-text {
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .percent {
@@ -205,6 +218,10 @@ header {
   font-size: 26px;
   line-height: 40px;
   font-weight: 700;
+}
+
+.percent-margin {
+  margin-inline-start: 0px;
 }
 
 .advert {
@@ -272,13 +289,15 @@ header {
   display: grid;
   grid-template-columns: 2fr 1fr;
   padding: 0;
-  column-gap: 20px;
+  column-gap: 150px;
   margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 75px;
   width: 1200px;
 }
 
 .about-column-1 {
-  margin: 0 auto;
+  justify-self: start;
 }
 
 .advantages-list {
@@ -354,12 +373,45 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 0;
-  column-gap: 20px;
+  column-gap: 95px;
   margin: 0 auto;
+  margin-top: 47px;
+  margin-bottom: 45px;
   width: 1200px;
 }
 
 /* оформление footer*/
+.footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+}
+
+.how-find {
+  display: grid;
+  grid-template-columns:1fr 1fr;
+}
+
+.background-map {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  grid-row-start: 1;
+  grid-row-end: -1;
+}
+
+.map-marker {
+ /* margin-top: 167px;*/
+ grid-row-start: 1;
+ grid-column-start: 2;
+}
+
+.contacts-container {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  align-self: center;
+}
+
 .social-list {
   list-style: none;
   display: flex;
@@ -421,7 +473,7 @@ header {
 }
 
 .page-title-center {
-  width: 1200px;
+  width: 720px;
   margin: 0 auto;
 }
 
@@ -429,6 +481,7 @@ header {
   font-weight: 500;
   font-size: 55px;
   line-height: 55px;
+  white-space: pre;
   margin: 0 auto;
 }
 
