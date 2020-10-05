@@ -17,12 +17,10 @@
           <li><a href="product-gallery.html">МАГАЗИН</a></li>
           <li><a href="">КОНТАКТЫ</a></li>
         </ul>
-        <ul class="user-navigation">
-          <li class="user-navigation-item">
-            <img src="img/recycle.svg" width="15" height="15" alt="" />
-            <a href="">КОРЗИНА</a>
-          </li>
-        </ul>
+        <div class="user-navigation">
+            <img class="recycle" src="img/recycle.svg" width="15" height="15" alt="" />
+            <a class="recycle-text" href="">КОРЗИНА</a>
+        </div>
       </div>
     </header>
     <main class="center">
@@ -130,7 +128,7 @@
               Уровень<br />
               самоотдачи
             </dt>
-            <dd>
+            <dd class="percent-margin">
               <b class="percent">146<sup class="percent-index">%</sup></b>
             </dd>
 
@@ -138,7 +136,7 @@
               Соблюдение<br />
               сроков
             </dt>
-            <dd>
+            <dd class="percent-margin">
               <b class="percent">100<sup  class="percent-index">%</sup></b>
             </dd>
 
@@ -146,7 +144,7 @@
               Минимальная<br />
               предоплата
             </dt>
-            <dd>
+            <dd class="percent-margin">
               <b class="percent">50<sup  class="percent-index">%</sup></b>
             </dd>
           </dl>
@@ -162,9 +160,10 @@
     </main>
 
     <footer class="footer">
-      <img src="img/map 1.jpg" width="1440" height="416" alt="" />
-      <img src="img/map-marker 1.png" width="230" height="190" alt="" />
-      <div class="main-contaner">
+      <div class="how-find main-contaner">
+      <img class="background-map" src="img/map 1.jpg" width="1440" height="416" alt="" />
+      <img class="map-marker" src="img/map-marker 1.png" width="230" height="190" alt="" />
+      <div class="main-contaner contacts-container">
         <section class="contacts">
           <h2 class="contacts-title">NЁRDS DESIGN STUDIO</h2>
           <p class="contacts-field">
@@ -174,6 +173,8 @@
           <a class="contacts-field" href="tel: +78122757575">тел. +7(812) 275-75-75</a><br />
           <a class="button-red" href="">НАПИШИТЕ НАМ</a>
         </section>
+      </div>
+      </div>
         <div class="social-contener">
           <ul class="social-list">
             <li class="social-item">
@@ -192,7 +193,7 @@
             <p class="friendship-bonus">Скидка 10% для друзей из социальных сетей.</p>
           </div>
         </div>
-      </div>
+
     </footer>
   </body>
 </html>
