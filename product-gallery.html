@@ -9,20 +9,18 @@
     </head>
     <body class="page-body">
       <header>
-        <div class="main-contaner main-header">
-            <a class="header-logo" href="index.html"><img src="img/nerds-logo.svg" width="159.87" height="65.02" alt=""></a>
-            <ul class="site-navigation  site-navigation-box">
-                <li><a href="index.html">СТУДИЯ</a></li>
-                <li><a href="">КЛИЕНТЫ</a></li>
-                <li><a href="product-gallery.html">МАГАЗИН</a></li>
-                <li><a href="">КОНТАКТЫ</a></li>
-            </ul>
-            <ul class="user-navigation">
-                <li class="user-navigation-item">
-                  <img src="img/recycle.svg" width="15" height="15" alt="">
-                  <a href="">КОРЗИНА</a>
-                </li>
-            </ul>
+        <div class="main-header main-contaner">
+          <a class="header-logo" href="index.html"><img src="img/nerds-logo.svg" width="159.87" height="65.02" alt="" /></a>
+          <ul class="site-navigation site-navigation-box">
+            <li><a href="index.html">СТУДИЯ</a></li>
+            <li><a href="">КЛИЕНТЫ</a></li>
+            <li><a href="product-gallery.html">МАГАЗИН</a></li>
+            <li><a href="">КОНТАКТЫ</a></li>
+          </ul>
+          <div class="user-navigation">
+              <img class="recycle" src="img/recycle.svg" width="15" height="15" alt="" />
+              <a class="recycle-text" href="">КОРЗИНА</a>
+          </div>
         </div>
       </header>
   <main>
@@ -33,32 +31,42 @@
   </div>
   <div class="catalog-box main-contaner">
   <aside>
-    <form action="https://" method="post">
-      <p class="aside-title">Стоимость:</p><br>
-      <p class="aside-title">Сетка:</p><br>
+    <form class="aside-box" action="https://" method="post">
+      <p class="aside-title">Стоимость:</p>
+      <p class="aside-title">Сетка:</p>
       <label class="aside-label">
         <input  class="product-choose" type="radio" name="grid" value="adaptive" checked>
         Адаптивная
-      </label><br>
+      </label>
       <label class="aside-label">
         <input  class="product-choose" type="radio" name="grid" value="fixed">
         Фиксированная
-      </label><br>
+      </label>
       <label class="aside-label">
         <input  class="product-choose" type="radio" name="grid" value="rubber">
         Резиновая
-      </label><br>
-      <p class="aside-title">Особенности:</p><br>
+      </label>
+      <p class="aside-title">Особенности:</p>
+      <div>
       <input class="product-choose" type="checkbox" name="slider" id="slider-chekbox" checked>
-      <label class="aside-label" for="slider-chekbox">Слайдер</label><br>
+      <label class="aside-label" for="slider-chekbox">Слайдер</label>
+      </div>
+      <div>
       <input class="product-choose" type="checkbox" name="advantages" id="advantages-chekbox">
-      <label class="aside-label" for="advantages-chekbox">Блок преимуществ</label><br>
+      <label class="aside-label" for="advantages-chekbox">Блок преимуществ</label>
+      </div>
+      <div>
       <input class="product-choose" type="checkbox" name="news" id="news-chekbox" checked>
-      <label class="aside-label" for="news-chekbox">Новости</label><br>
+      <label class="aside-label" for="news-chekbox">Новости</label>
+      </div>
+      <div>
       <input class="product-choose" type="checkbox" name="gallery" id="gallery-chekbox">
-      <label class="aside-label" for="gallery-chekbox">Галлерея</label><br>
+      <label class="aside-label" for="gallery-chekbox">Галлерея</label>
+      </div>
+      <div>
       <input class="product-choose" type="checkbox" name="recicle" id="recicle-chekbox">
-      <label class="aside-label" for="recicle-chekbox">Корзина</label><br>
+      <label class="aside-label" for="recicle-chekbox">Корзина</label>
+      </div>
       <input class="any-button" type="submit" value="ПОКАЗАТЬ">
     </form>
   </aside>
@@ -90,43 +98,43 @@
     <li class="gallery-item">
       <img class="gallery-item-shape" src="img/shape .svg" width="" height="" alt="">
       <a href=""> <img src="img/img-sedona 1.jpg" width="358" height="576" alt="sedona pic"></a>
-      <a class="gallery-item-title" href="">SEDONA</a><br>
-      <p class="gallery-item-text">Информационнный сайт<br> для туристов</p><br>
+      <a class="gallery-item-title" href="">SEDONA</a>
+      <p class="gallery-item-text">Информационнный сайт для туристов</p>
       <a class="button-red" href="">9900 Р</a>
     </li>
     <li class="gallery-item">
       <img class="gallery-item-shape" src="img/shape .svg" width="" height="" alt="">
       <a href=""><img src="img/img-pink 1.jpg" width="358" height="576" alt="pink pic"> </a>
-      <a class="gallery-item-title" href="">PINK APP</a><br>
-      <p class="gallery-item-text">Продуктовый лендинг <br> приложения для iOS и Android</p><br>
+      <a class="gallery-item-title" href="">PINK APP</a>
+      <p class="gallery-item-text">Продуктовый лендинг приложения для iOS и Android</p>
       <a class="button-red" href="">9900 Р</a>
     </li>
     <li class="gallery-item">
       <img class="gallery-item-shape" src="img/shape .svg" width="" height="" alt="">
       <a href=""><img src="img/img-barbershop 1.jpg" width="358" height="576" alt="barbershop pic"></a>
-      <a class="gallery-item-title" href="">Barbershop</a><br>
-      <p class="gallery-item-text">Сайт салона красоты.<br>Для мужчин, да.</p><br>
+      <a class="gallery-item-title" href="">Barbershop</a>
+      <p class="gallery-item-text">Сайт салона красоты. Для мужчин, да.</p>
       <a class="button-red" href="">9900 Р</a>
     </li>
     <li class="gallery-item">
       <img class="gallery-item-shape" src="img/shape .svg" width="" height="" alt="">
       <a href=""><img src="img/img-mishka 1.jpg" width="358" height="576" alt="mishka pic"></a>
-      <a class="gallery-item-title" href="">MISHKA</a><br>
-      <p class="gallery-item-text">Интернет-магазин <br> вязаных игрушек</p><br>
+      <a class="gallery-item-title" href="">MISHKA</a>
+      <p class="gallery-item-text">Интернет-магазин вязаных игрушек</p>
       <a class="button-red" href="">9900 Р</a>
     </li>
     <li class="gallery-item">
       <img class="gallery-item-shape" src="img/shape .svg" width="" height="" alt="">
       <a href=""><img src="img/img-aplus 1.jpg"width="358" height="576"  alt="aplus pic"></a>
-      <a class="gallery-item-title" href="">A Plus</a><br>
-      <p class="gallery-item-text">Лендинг курсов повышения квалификации</p><br>
+      <a class="gallery-item-title" href="">A Plus</a>
+      <p class="gallery-item-text">Лендинг курсов повышения квалификации</p>
       <a class="button-red" href="">9900 Р</a>
     </li>
     <li class="gallery-item">
       <img class="gallery-item-shape" src="img/shape .svg" width="" height="" alt="">
       <a href=""><img src="img/img-kvast 1.jpg" width="358" height="576" alt="kvast pic"></a>
-      <a class="gallery-item-title" href="">КВАСТ</a><br>
-      <p class="gallery-item-text">Промо-сайт производителя<br>крафтового кваса</p><br>
+      <a class="gallery-item-title" href="">КВАСТ</a>
+      <p class="gallery-item-text">Промо-сайт производителя крафтового кваса</p>
       <a class="button-red" href="">9900 Р</a>
     </li>
   </ul>
@@ -149,37 +157,37 @@
   </div>
 </section>
   </main>
-  <footer class="footer ">
-            <img src="img/map 1.jpg" width="1440" height="416" alt="" />
-            <img src="img/map-marker 1.png" width="230" height="190" alt="">
-           <div class="main-contaner">
-            <section class="contacts">
-                <h2 class="contacts-title">NЁRDS DESIGN STUDIO</h2>
-                <p class="contacts-field">
-                    191186, Санкт-Петербург,<br />
-                    ул. Б. Коньшенная,д. 19/8
-                </p>
-                <a class="contacts-field" href="tel: +78122757575">тел. +7(812) 275-75-75</a><br>
-                <a class="button-red" href="">НАПИШИТЕ НАМ</a>
-            </section>
-            <div class="social-contener">
-            <ul class="social-list">
-              <li class="social-item">
-                <img src="img/logovk.svg" alt="">
-              </li>
-              <li class="social-item">
-                <img src="img/logofb.svg" alt="">
-              </li>
-              <li class="social-item">
-                <img src="img/logoinsta.svg" alt="">
-              </li>
-            </ul>
-              <div class="friendship-contener">
-            <p class="friendship">Давайте дружить, это выгодно!</p><br>
-            <p class="friendship-bonus">Скидка 10% для друзей из социальных сетей.</p>
-              </div>
-            </div>
-            </div>
-        </footer>
+  <footer class="footer">
+    <img src="img/map 1.jpg" width="1440" height="416" alt="" />
+    <img src="img/map-marker 1.png" width="230" height="190" alt="">
+   <div class="main-contaner">
+    <section class="contacts">
+        <h2 class="contacts-title">NЁRDS DESIGN STUDIO</h2>
+        <p class="contacts-field">
+            191186, Санкт-Петербург,<br />
+            ул. Б. Коньшенная,д. 19/8
+        </p>
+        <a class="contacts-field" href="tel: +78122757575">тел. +7(812) 275-75-75</a><br>
+        <a class="button-red" href="">НАПИШИТЕ НАМ</a>
+    </section>
+    <div class="social-contener">
+    <ul class="social-list">
+      <li class="social-item">
+        <img src="img/logovk.svg" alt="">
+      </li>
+      <li class="social-item">
+        <img src="img/logofb.svg" alt="">
+      </li>
+      <li class="social-item">
+        <img src="img/logoinsta.svg" alt="">
+      </li>
+    </ul>
+      <div class="friendship-contener">
+    <p class="friendship">Давайте дружить, это выгодно!</p><br>
+    <p class="friendship-bonus">Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </div>
+    </div>
+</footer>
 </body>
 </html>
