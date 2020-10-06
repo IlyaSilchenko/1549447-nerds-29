@@ -77,17 +77,17 @@ header {
   margin-bottom: 70px;
   display: grid;
   grid-template-columns: max-content 1fr min-content;
+  padding-top: 75px;
+  align-items: center;
 }
 
 /*оформление навигации*/
 .main-contaner {
   width: 1200px;
   margin: 0 auto;
-  padding: 0;
 }
 
 .header-logo {
-  padding-top: 49px;
 }
 
 .header-logo:active {
@@ -104,7 +104,6 @@ header {
 
 .site-navigation-box {
   margin: 0 auto;
-  padding-top: 75px;
 }
 
 .user-navigation {
@@ -115,11 +114,9 @@ header {
 }
 
 .recycle {
-  padding-top: 55px;
 }
 
 .recycle-text {
-padding-top: 55px;
 }
 
 .site-navigation,
@@ -171,7 +168,7 @@ padding-top: 55px;
 .products {
   list-style: none;
   padding-top: 15px;
-  margin-bottom: 81px;
+  padding-bottom: 81px;
 }
 
 .products-list {
@@ -200,12 +197,17 @@ padding-top: 55px;
 .about-title {
   font-size: 45px;
   line-height: 45px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .bold-text {
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.bold-text .regular-text {
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .percent {
@@ -225,7 +227,7 @@ padding-top: 55px;
 }
 
 .advert {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 .advert-list {
@@ -397,12 +399,14 @@ padding-top: 55px;
   grid-column-end: -1;
   grid-row-start: 1;
   grid-row-end: -1;
+  justify-self: center;
 }
 
 .map-marker {
  /* margin-top: 167px;*/
  grid-row-start: 1;
  grid-column-start: 2;
+ grid-column-end: -1;
 }
 
 .contacts-container {
@@ -492,6 +496,12 @@ padding-top: 55px;
   padding: 0;
 }
 
+.aside-box {
+  display: flex;
+  flex-direction: column;
+  padding-top: 55px;
+}
+
 .gallery-item-list {
   list-style: none;
   display: grid;
@@ -527,7 +537,9 @@ padding-top: 55px;
 }
 
 .criterion-desing-box {
+  padding-top: 55px;
   display: flex;
+  align-items: center ;
 }
 
 .criterion-list,
@@ -541,6 +553,8 @@ padding-top: 55px;
   font-weight: 700;
   font-size: 18px;
   line-height: 30px;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
 }
 
 .product-choose:checked {
@@ -553,6 +567,8 @@ padding-top: 55px;
   font-size: 16px;
   line-height: 19px;
   color: var(--regular-text-color);
+  align-self: flex-start;
+  justify-self: center;
 }
 
 .aside-label:disabled {
