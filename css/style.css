@@ -403,7 +403,6 @@ header {
 }
 
 .map-marker {
- /* margin-top: 167px;*/
  grid-row-start: 1;
  grid-column-start: 2;
  grid-column-end: -1;
@@ -474,6 +473,8 @@ header {
 
 .page-title-box {
   background: var(--grey-light);
+  padding-top: 72px;
+  padding-bottom: 108px;
 }
 
 .page-title-center {
@@ -493,13 +494,13 @@ header {
   display: grid;
   grid-template-columns: 260px 1fr;
   column-gap: 20px;
-  padding: 0;
 }
 
 .aside-box {
   display: flex;
   flex-direction: column;
   padding-top: 55px;
+  row-gap: 15px;
 }
 
 .gallery-item-list {
@@ -529,6 +530,9 @@ header {
   font-weight: 700;
   font-size: 18px;
   line-height: 30px;
+  /*padding-bottom: 22px;*/
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
 .criterion-box {
@@ -542,11 +546,14 @@ header {
   align-items: center ;
 }
 
+.choose-box-title {
+padding-top: 48px;
+}
+
 .criterion-list,
 .position-list {
   list-style: none;
   display: flex;
-  align-content: space-around;
 }
 
 .sort-title {
@@ -555,6 +562,21 @@ header {
   line-height: 30px;
   margin-block-end: 0px;
   margin-block-start: 0px;
+  /*padding-right: 265px;*/
+  padding-left: 140px;
+}
+
+.criterion-list {
+  column-gap: 25px;
+  padding-right: 47px;
+  padding-left: 267px;
+}
+
+.position-list {
+  column-gap: 18px;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  padding-inline-start: 0px;
 }
 
 .product-choose:checked {
@@ -578,7 +600,10 @@ header {
 .pagination-list {
   list-style: none;
   display: flex;
-  align-content: space-around;
+  padding-top: 54px;
+  padding-left: 140px;
+  padding-bottom: 60px;
+  column-gap: 11px;
 }
 
 .pagination-item {
@@ -602,7 +627,10 @@ header {
   color: rgba(0, 0, 0, 0 3);
 }
 
-.gallery-item:active {
+.gallery-item-list {
+  padding-left: 140px;
+  column-gap: 40px;
+  row-gap: 30px;
 }
 
 .gallery-item-shape {
