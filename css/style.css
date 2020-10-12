@@ -96,6 +96,7 @@ header {
 
 .site-navigation {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin: 0;
   padding: 0;
@@ -499,7 +500,7 @@ header {
 .aside-box {
   display: flex;
   flex-direction: column;
-  padding-top: 55px;
+  margin-top: 70px;
   row-gap: 15px;
 }
 
@@ -507,8 +508,14 @@ header {
   list-style: none;
   display: grid;
   grid-template-columns:360px 360px;
-  column-gap: 20px;
-  padding: 0;
+  padding-left: 0;
+  padding-inline-start: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  column-gap: 40px;
+  row-gap: 30px;
 }
 
 .gallery-item-title {
@@ -538,6 +545,7 @@ header {
 .criterion-box {
   display: flex;
   flex-direction: column;
+  padding-left: 140px;
 }
 
 .criterion-desing-box {
@@ -547,7 +555,7 @@ header {
 }
 
 .choose-box-title {
-padding-top: 48px;
+margin-top: 48px;
 }
 
 .criterion-list,
@@ -562,14 +570,12 @@ padding-top: 48px;
   line-height: 30px;
   margin-block-end: 0px;
   margin-block-start: 0px;
-  /*padding-right: 265px;*/
-  padding-left: 140px;
 }
 
 .criterion-list {
   column-gap: 25px;
   padding-right: 47px;
-  padding-left: 285px;
+ padding-left: 285px;
 }
 
 .position-list {
@@ -601,9 +607,9 @@ padding-top: 48px;
   list-style: none;
   display: flex;
   padding-top: 54px;
-  padding-left: 140px;
   padding-bottom: 60px;
   column-gap: 11px;
+  padding-inline-start: 0;
 }
 
 .pagination-item {
@@ -625,12 +631,6 @@ padding-top: 48px;
   box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
   border-radius: 3px;
   color: rgba(0, 0, 0, 0 3);
-}
-
-.gallery-item-list {
-  padding-left: 140px;
-  column-gap: 40px;
-  row-gap: 30px;
 }
 
 .gallery-item-shape {
