@@ -32,7 +32,29 @@
   <div class="catalog-box main-contaner">
   <aside>
     <form class="aside-box" action="https://" method="post">
-      <p class="aside-title">Стоимость:</p>
+      <fieldset class="filter-item">
+        <legend>Стоимость:</legend>
+        <div class="range-filter">
+          <div class="range-controls">
+            <div class="scale">
+              <div class="bar" style="
+                width: 30%;
+                margin-left: 20%
+              "></div>
+            </div>
+            <div class="toggle toggle-min" tabindex="0"></div>
+            <div class="toggle toggle-max" tabindex="0"></div>
+          </div>
+          <div class="price-controls">
+            <label class="min-price">
+              от <input type="number" name="min-price" value="0">
+            </label>
+            <label class="max-price">
+              до <input type="number" name="max-price" value="15000">
+            </label>
+          </div>
+        </div>
+    </fieldset>
       <p class="aside-title">Сетка:</p>
       <label class="aside-label">
         <input  class="product-choose" type="radio" name="grid" value="adaptive" checked>
