@@ -161,6 +161,33 @@ header {
   list-style: none;
 }
 
+.advert-slide1::before {
+  position: absolute;
+  content: ;
+  background-image: url("../img/nerds-index-slide1 1.png");
+  width: 760px;
+  height: 431px;
+  left: 537px;
+  top: 114px;
+}
+.advert-slide2::before {
+  position: absolute;
+  content: ;
+  background-image: url("../img/nerds-index-slide2 1.png");
+  width: 760px;
+  height: 431px;
+  left: 537px;
+  top: 114px;
+}
+.advert-slide2::before {
+  position: absolute;
+  content: ;
+  background-image: url("../img/nerds-index-slide3 1.png");
+  width: 760px;
+  height: 431px;
+  left: 537px;
+  top: 114px;
+}
 .advert-title {
   font-size: 55px;
   line-height: 55px;
@@ -172,6 +199,33 @@ header {
   padding-bottom: 81px;
 }
 
+.products-slide1::before {
+  position: absolute;
+  content: ;
+  background-image: url("../img/illustration-1 1.png");
+  width: 300px;
+  height: 146px;
+  left: 140px;
+  top: 625px;
+}
+.products-slide2::before {
+  position: absolute;
+  content: ;
+  background-image: url("../img/illustration-2 1.png");
+  width: 300px;
+  height: 146px;
+  left: 540px;
+  top: 625px;
+}
+.products-slide3::before {
+  position: absolute;
+  content: ;
+  background-image: url("../img/illustration-3 1.png");
+  width: 300px;
+  height: 146px;
+  left: 940px;
+  top: 625px;
+}
 .products-list {
   text-decoration: none;
   list-style: none;
@@ -385,28 +439,35 @@ header {
 
 /* оформление footer*/
 .footer {
-  display: grid;
-  grid-template-columns: 1fr;
   margin: 0 auto;
 }
 
 .how-find {
-  display: grid;
-  grid-template-columns:1fr 1fr;
+  margin: 0 auto;
 }
 
 .background-map {
-  grid-column-start: 1;
+  /*grid-column-start: 1;
   grid-column-end: -1;
   grid-row-start: 1;
   grid-row-end: -1;
-  justify-self: center;
+  justify-self: center;*/
+  position: absolute;
+width: 1440px;
+height: 416px;
+left: 0px;
+top: 1843px;
 }
 
 .map-marker {
- grid-row-start: 1;
+ /*grid-row-start: 1;
  grid-column-start: 2;
- grid-column-end: -1;
+ grid-column-end: -1;*/
+ position: absolute;
+width: 231px;
+height: 190px;
+left: 822px;
+top: 1929px;
 }
 
 .contacts-container {
@@ -433,7 +494,12 @@ header {
 }
 
 .contacts {
-  margin: 0 auto;
+ /* margin: 0 auto;*/
+  position: absolute;
+width: 319px;
+height: 308px;
+left: 140px;
+top: 1897px;
 }
 
 .friendship-container {
