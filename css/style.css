@@ -161,32 +161,23 @@ header {
   list-style: none;
 }
 
-.advert-slide1::before {
-  position: absolute;
-  content:'';
+.advert-slide1 {
+  position: relative;
   background-image: url("../img/nerds-index-slide1 1.png");
-  width: 760px;
-  height: 431px;
-  left: 537px;
-  top: 114px;
+  background-position: right;
+  background-repeat: no-repeat;
 }
-.advert-slide2::before {
+.advert-slide2 {
   position: absolute;
-  content:'';
   background-image: url("../img/nerds-index-slide2 1.png");
-  width: 760px;
-  height: 431px;
-  left: 537px;
-  top: 114px;
+  background-position: right;
+  background-repeat: no-repeat;
 }
-.advert-slide2::before {
+.advert-slide3 {
   position: absolute;
-  content:'';
   background-image: url("../img/nerds-index-slide3 1.png");
-  width: 760px;
-  height: 431px;
-  left: 537px;
-  top: 114px;
+  background-position: right;
+  background-repeat: no-repeat;
 }
 .advert-title {
   font-size: 55px;
@@ -195,36 +186,37 @@ header {
 
 .products {
   list-style: none;
-  padding-top: 15px;
+  padding-top: 161px;
   padding-bottom: 81px;
 }
 
-.products-slide1::before {
+.product-item {
+  position: relative;
+}
+
+.product-slide1::before {
   position: absolute;
   content:'';
   background-image: url("../img/illustration-1 1.png");
   width: 300px;
   height: 146px;
-  left: 140px;
-  top: 625px;
+  top: -151px;
 }
-.products-slide2::before {
+.product-slide2::before {
   position: absolute;
   content:'';
   background-image: url("../img/illustration-2 1.png");
   width: 300px;
   height: 146px;
-  left: 540px;
-  top: 625px;
+  top: -151px;
 }
-.products-slide3::before {
+.product-slide3::before {
   position: absolute;
   content:'';
   background-image: url("../img/illustration-3 1.png");
   width: 300px;
   height: 146px;
-  left: 940px;
-  top: 625px;
+  top: -151px;
 }
 .products-list {
   text-decoration: none;
@@ -294,15 +286,15 @@ header {
 }
 
 .advert-item {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   margin: 0 auto;
   padding: 0;
   column-gap: 20px;
+  width: 1157px;
 }
 
 .advert-item-text {
   margin-bottom: 80px;
+  position: relative;
 }
 
 .advantages {
@@ -324,6 +316,7 @@ header {
 }
 
 .contacts-field {
+  position: relative;
   color: var(--contacts-field-color);
   font-size: 16px;
   line-height: 18px;
@@ -372,6 +365,10 @@ header {
   color: var (--white);
   font-size: 16px;
   line-height: 18px;
+  padding-left: 54px;
+  padding-right: 54px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .button-red:hover {
@@ -392,6 +389,10 @@ header {
   color: var (--white);
   font-size: 16px;
   line-height: 18px;
+  padding-left: 54px;
+  padding-right: 54px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .button-green:hover {
@@ -412,6 +413,10 @@ header {
   color: var (--white);
   font-size: 16px;
   line-height: 18px;
+  padding-left: 54px;
+  padding-right: 54px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .button-yellow:hover {
@@ -424,6 +429,12 @@ header {
   background: var(--yellow-dark);
   border-radius: 3px;
   color: rgba(255, 255, 255, 0.3);
+}
+
+.writeus-button {
+  position: absolute;
+  left: 40px;
+  top: 200px;
 }
 
 .partners-logo {
@@ -444,37 +455,31 @@ header {
 
 .how-find {
   margin: 0 auto;
+  position: relative;
 }
 
 .background-map {
-  /*grid-column-start: 1;
-  grid-column-end: -1;
-  grid-row-start: 1;
-  grid-row-end: -1;
-  justify-self: center;*/
-  position: absolute;
+position: absolute;
 width: 1440px;
 height: 416px;
-left: 0px;
-top: 1843px;
 }
 
 .map-marker {
- /*grid-row-start: 1;
- grid-column-start: 2;
- grid-column-end: -1;*/
- position: absolute;
+position: absolute;
 width: 231px;
 height: 190px;
-left: 822px;
-top: 1929px;
+left: 680px;
+top: 85px;
 }
 
-.contacts-container {
-  grid-row-start: 1;
+.contacts-contener {
+  /*grid-row-start: 1;
   grid-column-start: 1;
   grid-column-end: 2;
-  align-self: center;
+  align-self: center;*/
+  position: absolute;
+  bottom: 1840px;
+  right: 1220px;
 }
 
 .social-list {
@@ -487,15 +492,16 @@ top: 1929px;
 
 .social-contener {
   display: grid;
-  grid-template-columns: 1fr 3fr;
-  margin: 0;
+  grid-template-columns: 1fr 2fr;
+  margin: 0 auto;
   padding: 0;
   column-gap: 20px;
+  padding-top: 412px
 }
 
 .contacts {
- /* margin: 0 auto;*/
-  position: absolute;
+margin: 0 auto;
+position: absolute;
 width: 319px;
 height: 308px;
 left: 140px;
@@ -506,14 +512,14 @@ top: 1897px;
   margin: 0 auto;
 }
 
-.social-contener {
-  margin: 0 auto;
-}
 
 .friendship {
   font-size: 36px;
   line-height: 36px;
   font-weight: 700;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-top: 30px;
 }
 
 .friendship-bonus {
@@ -523,8 +529,15 @@ top: 1897px;
   font-weight: 400;
 }
 
+.logofb {
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
 .social-item {
   background: linear-gradient(0deg, var(--grey-gradient), var(--grey-gradient)), var(--white);
+  padding: 40px;
+  border-radius: 50%;
 }
 
 .social-item:hover {
